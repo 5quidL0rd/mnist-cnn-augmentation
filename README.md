@@ -56,10 +56,37 @@ To summarize, this cnn code is more effective as it utilizes:
 2) Weight Sharing: This CNN model uses the same filter (same weights) across the entire image so it reduces overall parameter number.
 3) Spatial Hierarchy: CNNs preserve spatial structure of images, so they can recognize more complex patterns our Feedforward wouldn't
 4) Pooling Layers: CNNS include pooling layers that reduce the spatial size of the input.
-5) Also, we use data augmentation in the cnn code which artificially increases the size of the data by roatating the images, scaling images, etc. 
+5) Also, we use data augmentation in the cnn code which artificially increases the size of the data by roatating the images, scaling images, etc.
+
+## **CNN Neural Network with Visuals**
+
+Thus far, we only can see training epochs and percentages outputted to our command line. Some pictures would make things more interesting and informative to boot. 
+Run the mnist_cnn_visuals.py code in the github. 
+
+```bash
+python3 mnist_cnn_visuals.py
+```
+
+Now, after you finish running your cnn take a look at what files are in your directory.
+
+```bash
+ls
+```
+
+You should see different images you can open up and take a look at. I am using xdg for this but there are different ways to open it up.
+
+```bash
+xdg-open sample_predictions_epoch_2.png
+```
+
+You can now observe the MNIST dataset and see how your model does on classification. 
+
+
 
 
 ## **Further Research** 
+
+And that's it! 
 
 If you would like to continue to research this topic:
 
