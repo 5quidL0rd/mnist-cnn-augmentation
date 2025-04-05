@@ -44,7 +44,7 @@ This will:
 
 ## **CNN Neural Network**
 
-CNN are a much more effective at image classification as well shall see.
+CNNs are a much more effective at image classification as well shall see.
 
 ```bash
 python3 mnist_cnn.py
