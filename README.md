@@ -52,7 +52,7 @@ python3 mnist_cnn.py
 
 After you run the second file in this Github as shown above you will see that this CNN is much more effective at minimizing our loss function. 
 To summarize, this cnn code is more effective as it utilizes:
-1) Local feature detection: CNNS use convolutional layers that apply filter sto small regions of the input, so they can detect local patterns more effecitvely
+1) Local feature detection: CNNS use convolutional layers that apply filter sto small regions of the input, so they can detect local patterns more effectively 
 2) Weight Sharing: This CNN model uses the same filter (same weights) across the entire image so it reduces overall parameter number.
 3) Spatial Hierarchy: CNNs preserve spatial structure of images, so they can recognize more complex patterns our Feedforward wouldn't
 4) Pooling Layers: CNNS include pooling layers that reduce the spatial size of the input.
